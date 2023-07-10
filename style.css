@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 0 150px;
+}
+
+.banner-header {
+    min-width: 50%;
+}
+
+.banner-header-title {
+    color: #272727;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner-header-subtitle {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    max-width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-img-place-holder {
+    min-width: 50%;
+    min-height: 95vh;
+    align-self: flex-end;
+    background-image: url("Flower Asset/pngwing 10.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: #E55473;
+    display: inline-block;
+}
