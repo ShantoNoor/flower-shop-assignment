@@ -208,3 +208,18 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+/* for instagram section */
+.instagram {
+    padding-top: 100px;
+    padding-bottom: 100px;;
+}
+
+.instagram-img-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.instagram-img {
+    width: 24%;
+}
