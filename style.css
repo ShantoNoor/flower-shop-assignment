@@ -65,7 +65,7 @@
     outline: none;
 }
 
-/* for banner section */
+/* banner section */
 .banner {
     display: flex;
     align-items: center;
@@ -106,7 +106,7 @@
     background-position: right bottom;
 }
 
-/* for feature section */
+/* feature section */
 .flower-item-container {
     display: flex;
     justify-content: space-between;
@@ -198,7 +198,7 @@
     margin-top: 20px;
 }
 
-/* for hot deal section */
+/* hot deal section */
 .hot-deal {
     display: flex;
     justify-content: space-between;
@@ -227,7 +227,7 @@
     margin-bottom: 20px;
 }
 
-/* for instagram section */
+/* instagram section */
 .instagram {
     padding-top: 100px;
     padding-bottom: 100px;;
@@ -242,7 +242,7 @@
     width: 24%;
 }
 
-/* for testimonials section */
+/* testimonials section */
 .testimonials-item-container {
     display: flex;
     justify-content: space-between;
@@ -280,7 +280,7 @@
     text-align: justify;
 }
 
-/* for latest deals section */
+/* latest deals section */
 .latest-deals {
     padding: 0;
     margin: 100px 150px;
@@ -314,3 +314,41 @@
     outline: none;
 }
 
+/* footer section */
+.footer {
+    background-color: #111010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-logo {
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.footer-logo span {
+    color: #E55473;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-info {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
