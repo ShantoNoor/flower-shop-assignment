@@ -61,7 +61,8 @@
 
 /* for feature section */
 .feature {
-    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;;
 }
 
 .section-title {
@@ -146,5 +147,34 @@
     font-style: normal;
     font-weight: 700;
     text-decoration-line: underline;
+    margin-top: 20px;
+}
+
+.feature-item-container {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 100px;
+    justify-content: space-between;
+    padding: 60px 160px;
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-item-img {
+    height: 60px;
+    width: 60px;
+}
+
+.feature-item-status {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
     margin-top: 20px;
 }
